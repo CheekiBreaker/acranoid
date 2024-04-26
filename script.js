@@ -66,7 +66,7 @@ function collisionDetection() {
                     dy = -dy;
                     b.status = 0;
                     score++;
-                    paddleWidth = paddleWidth + 10;
+                    // paddleWidth = paddleWidth + 10;
                     if (score == brickRowCount * brickColumnCount) {
                         alert("You are winner!");
                         document.location.reload();
